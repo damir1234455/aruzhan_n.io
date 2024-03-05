@@ -1,0 +1,102 @@
+.mainBg {
+  width: 98.9vw;
+  height: 100%;
+  background-color: rgb(99, 15, 15);
+}
+.conteiner {
+  padding: 20px 120px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  transition: 0.4s;
+}
+.head a:hover {
+  color: #9a836886;
+}
+.head img {
+  width: 60px;
+  height: auto;
+}
+.head_right button {
+  padding: 7px 0 7px 20px;
+  background-color: rgba(119, 186, 134, 0.459);
+  color: #fff;
+  border-radius: 7px;
+  transition: 0.4s;
+  border: none;
+  margin-right: 30px;
+}
+.head_right button:hover {
+  background-color: #9a836886;
+  border: #0a0909;
+}
+.head_right a {
+  transition: 0.4s;
+  text-align: center;
+}
+.head_right a:hover {
+  color: #fff;
+}
+.footer {
+  background-color: white;
+  padding: 20px auto;
+  margin-top: 20px;
+}
+.footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+.footer_content_item {
+  color: grey;
+  border-bottom: 5px;
+  cursor: pointer;
+}
+.footer_content_item a {
+  text-decoration: none;
+}
+.footer_content_item h5 {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+.footer_content_item h5:hover {
+  color: rgb(214, 168, 108);
+  padding-right: 5px;
+}
+
+.footer_content_item h6 {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+.footer_content_item h6:hover {
+  color: rgb(214, 168, 108);
+  padding-right: 5px;
+}
+.card {
+  border-radius: 1em;
+  text-align: center;
+}
+.card:hover {
+  background-color: rgb(247, 222, 227);
+  transition: 1s;
+}
+.card img {
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+}
+.card:hover img {
+  width: 100%;
+  transition: 1s;
+}
